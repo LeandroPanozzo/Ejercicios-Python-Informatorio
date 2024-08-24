@@ -1,0 +1,46 @@
+/* Navigator.css */
+.sidebar {
+  width: 250px; /* Ancho fijo para la barra lateral */
+  background-color: #f8f9fa; /* Color de fondo de la barra lateral */
+  padding: 15px;
+  position: fixed; /* Fija la barra lateral al lado derecho */
+  right: 0; /* Alinea la barra lateral al lado derecho */
+  top: 60px; /* Ajusta el margen superior para no ir hasta el borde superior */
+  padding-bottom: 20px; /* Agregué un padding-bottom para que no ocupe todo el largo */
+  height: auto; /* Agregué un height auto para que se adapte al contenido */
+  overflow-y: auto; /* Permite desplazamiento vertical si el contenido es largo */
+}
+.text-center {
+  text-align: center;
+}
+  .content-section h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .text-muted {
+    color: #6c757d;
+  }
+  
+  .list-group {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  
+  .list-group-item a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .list-group-item a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,46 @@
+/* Header.css */
+.header {
+    background-color: #f8f9fa; /* Color de fondo de la barra superior */
+    padding: 10px 20px;
+    border-bottom: 1px solid #dee2e6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Asegúrate de que la barra esté por encima de otros elementos */
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacio entre el logo y los enlaces */
+  }
+  
+  .links {
+    display: flex;
+    gap: 10px; /* Espacio entre los enlaces */
+  }
+  
+  .nav-left a, .nav-right a {
+    text-decoration: none;
+    color: #ce2222;
+    padding: 5px 10px; /* Espacio interno para los botones */
+    border-radius: 4px; /* Bordes redondeados para los botones */
+  }
+  
+  .nav-left a:hover, .nav-right a:hover {
+    background-color: #d4edda; /* Fondo verde pastel al pasar el mouse */
+    color: #155724; /* Color del texto al pasar el mouse */
+    text-decoration: none; /* Elimina el subrayado en el estado hover */
+  }
+  
+  .logo img {
+    max-height: 40px; /* Ajusta el tamaño del logo */
+  }
+  
